@@ -7,7 +7,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SumOddRange.sumOdd(100,100);
+        HttpURLConnectionExample.class
+
+//        PerfectNumber.isPerfectNumber(6);
+
+
+//        FactorPrinter.printFactors(10);
+
+//     int divider = GreatestCommonDivisor.getGreatestCommonDivisor(120,300);
+//        System.out.println(divider);
+
+
+
+
+//        SumOddRange.sumOdd(1,100);
 
 //        int count = 0;
 //        int sum = 0;
