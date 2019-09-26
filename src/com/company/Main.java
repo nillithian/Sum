@@ -5,11 +5,26 @@ public class Main {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
 
-        HttpURLConnectionExample.class
 
-//        PerfectNumber.isPerfectNumber(6);
+
+
+//          int ceva = NumberToWords.getDigitCount(1);
+//        System.out.println(ceva);
+
+
+//        NumberToWords.numberToWords(123);
+
+//    HttpURLConnectionExample Obj=new HttpURLConnectionExample();
+
+//        HttpURLConnectionExample.sendGET();
+
+
+
+
+//        boolean perfect = PerfectNumber.isPerfectNumber(28);
+//        System.out.println("is the number a Perfect number? " + perfect);
 
 
 //        FactorPrinter.printFactors(10);
@@ -17,10 +32,9 @@ public class Main {
 //     int divider = GreatestCommonDivisor.getGreatestCommonDivisor(120,300);
 //        System.out.println(divider);
 
-
-
-
-//        SumOddRange.sumOdd(1,100);
+//
+//        int i = SumOddRange.sumOdd(1, 100);
+//        System.out.println(i);
 
 //        int count = 0;
 //        int sum = 0;
