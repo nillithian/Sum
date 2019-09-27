@@ -7,14 +7,19 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
+//         NumberToWords.numberToWords(-1);
+//        System.out.println("ceva ceva " + ceva);
+
+//        NumberToWords.Reverse(1230);
 
 
 
-//          int ceva = NumberToWords.getDigitCount(1);
+
+//          int ceva = NumberToWords.getDigitCount(25);
 //        System.out.println(ceva);
 
 
-//        NumberToWords.numberToWords(123);
+        NumberToWords.numberToWords(900);
 
 //    HttpURLConnectionExample Obj=new HttpURLConnectionExample();
 
