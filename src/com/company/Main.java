@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-       int number = LargestPrime.getLargestPrime(7);
+       int number = LargestPrime.getLargestPrime(21);
         System.out.println("Largest prime Divider for the given number is " +number);
 
 
