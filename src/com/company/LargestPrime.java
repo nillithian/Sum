@@ -10,17 +10,20 @@ public class LargestPrime {
 
 
         int Divisor = 0;
-        int i = 2;
+//        int i = number;
         int PrimeDivisor = 0;
 
-        for (; i <= number; i++) {
+        for (int i = 1; i <= number ; i++) {
             if (number % i == 0) {
                 Divisor = i;
 
                 for (int j = 2; j <= Divisor; j++) {
                     if (Divisor % j == 0) {
+                        PrimeDivisor = Divisor;
 
-                    } else PrimeDivisor = Divisor;
+                        return PrimeDivisor;
+                    }
+//                    else PrimeDivisor = Divisor;
                 }
             }
 

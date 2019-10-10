@@ -7,8 +7,14 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-       int number = LargestPrime.getLargestPrime(21);
+       int number = LargestPrime.getLargestPrime(217);
         System.out.println("Largest prime Divider for the given number is " +number);
+
+//        int number2 = LargestPrime2.getLargestPrime(7);
+//        System.out.println("Largest Prime divider for LargestPrime2 method is " + number2);
+
+//        int number3 = LargestPrime3.getLargestPrime(7);
+//        System.out.println("Largest Prime 3 divisor for challenge method is " + number3);
 
 
 //        boolean prime = PrimeNumber.isPrime(21);
