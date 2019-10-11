@@ -9,6 +9,7 @@ import java.net.URL;
 
 
 
+
 public class HttpURLConnectionExample {
 
     private static final String USER_AGENT = "Mozilla/5.0";
@@ -47,7 +48,8 @@ public class HttpURLConnectionExample {
             in.close();
 
             // print result
-            System.out.println(response.toString());
+            System.out.println(response.toString ());
+
         } else {
             System.out.println("GET request not worked");
         }
