@@ -14,7 +14,7 @@ public class HttpURLConnectionExample {
 
     private static final String USER_AGENT = "Mozilla/5.0";
 
-    private static final String GET_URL = "https://api.exchangeratesapi.io/latest?symbols=USD,GBP,RON";
+    private static final String GET_URL = "https://api.exchangeratesapi.io/latest?symbols=USD,RON";
 
     private static final String POST_URL = "http://localhost:9090/SpringMVCExample/home";
 
