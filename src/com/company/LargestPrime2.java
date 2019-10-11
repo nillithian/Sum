@@ -4,30 +4,28 @@ public class LargestPrime2 {
 
     public static int getLargestPrime(int number) {
 
-        int Divisor = 0;
-//        int i = number;
-        int PrimeDivisor = 0;
-        boolean isPrime = false;
+        int divisor = 0;
 
-        if ((number <0 ) || (number == 1)) {
+        if (number<=1) {
             return -1;
         }
+        for (int i = number; i >= 2; i--) {
+            if (number % i == 0) {
+                divisor = i;
+                boolean isPrime = true;
 
-        for (int i = number; i>1 ; i--){
-            if (number % i == 0){
-                Divisor = i;
-                for (int j = Divisor; j <= number / 2;j++){
-                    if (Divisor % j == 0) {
-                        PrimeDivisor = Divisor;
-
-                        return PrimeDivisor;
+                for (int j = 2; j <= divisor / 2; j++) {
+                    if (divisor % j == 0) {
+                        isPrime = false;
+                        break;
                     }
-//                    else PrimeDivisor = Divisor;
-//                    break;
+                }
+                if (isPrime) {
+                    return divisor;
                 }
             }
         }
-        return PrimeDivisor;
 
+        return -1;
     }
 }

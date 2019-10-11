@@ -10,31 +10,28 @@ public class LargestPrime {
 
 
         int Divisor = 0;
-//        int i = number;
-        int PrimeDivisor = 0;
 
-        for (int i = 1; i <= number ; i++) {
+        int  PrimeDivisor = 0;
+
+        for (int i = 2; i <= Math.sqrt(number) / 2; i++) {
             if (number % i == 0) {
                 Divisor = i;
+                System.out.println("Divisor here is " + Divisor);
 
-                for (int j = 2; j <= Divisor; j++) {
+                boolean isPrime = true;
+                for (int j = 2; j < Divisor / 2; j++) {
                     if (Divisor % j == 0) {
-                        PrimeDivisor = Divisor;
-
-                        return PrimeDivisor;
+                        isPrime = false;
+                    } if (isPrime) {
+                        return Divisor;
                     }
-//                    else PrimeDivisor = Divisor;
                 }
             }
 
-//        for (int j = PrimeDivisor; j <= PrimeDivisor; j++ ){
-//            if (PrimeDivisor % j == 0){
-//                return -1;
-//            } else PrimeDivisor = j;
 
+//            return -1;
         }
-        return PrimeDivisor;
+        System.out.println("ai ajuns aici");
+        return Divisor;
     }
-
-
 }
